@@ -18,31 +18,13 @@
 --
 -- Table structure for table `customer_detail`
 --
-
-DROP TABLE IF EXISTS `customer_detail`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `customer_detail` (
-  `User_Id` int NOT NULL AUTO_INCREMENT,
-  `Customer_Name` varchar(45) NOT NULL,
-  `User_Name` varchar(45) NOT NULL,
-  `Password` varchar(250) NOT NULL,
-  `Phone_No` varchar(45) NOT NULL,
-  `Address` varchar(200) NOT NULL,
-  `Gender` varchar(45) NOT NULL,
-  `DOB` varchar(45) NOT NULL,
-  `Enabled` tinyint NOT NULL,
-  PRIMARY KEY (`User_Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
 --
 -- Dumping data for table `customer_detail`
 --
 
 LOCK TABLES `customer_detail` WRITE;
 /*!40000 ALTER TABLE `customer_detail` DISABLE KEYS */;
-INSERT INTO `customer_detail` VALUES (1,'Prashant Bhagwani','Prashant','$2a$10$imeuzNL/2X1GyR5nCL97RO6Wi8RKgQaf.I..e715p8hfWq/sF51xK','8989246159','Satna','Male','2022-06-04',1),(2,'Divyesh Bhagwani','Divyesh ','$2a$10$P/.SOTqMDo.L7bBDGBuE7.h3drjZAJvmXCEQDaTnmutul1itcQoIS','9425426042','Satna','Male','2022-06-24',1);
+INSERT INTO `customer_detail` VALUES (1,'Prashant Bhagwani','8989246159'),(2,'Divyesh Bhagwani','9425426042');
 /*!40000 ALTER TABLE `customer_detail` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

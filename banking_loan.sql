@@ -19,16 +19,6 @@
 -- Table structure for table `loan`
 --
 
-DROP TABLE IF EXISTS `loan`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `loan` (
-  `Loan_Id` int NOT NULL,
-  `Loan_Type` varchar(100) NOT NULL,
-  PRIMARY KEY (`Loan_Id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
 --
 -- Dumping data for table `loan`
 --
