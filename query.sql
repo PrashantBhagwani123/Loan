@@ -1,3 +1,3 @@
 use banking;
 
-INSERT INTO `customer_detail` VALUES (3,'Mahesh Patil','9422194151');
+INSERT INTO `customer_detail` VALUES (4,'Aditya','8989928392');
